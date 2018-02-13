@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NFL-Roster</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header row ">
+            <h1>My NFL Roster</h1>
+        </div>
+        <div class="search row">
+            <form id="form" class="form-inline" onsubmit="app.controllers.playersController.getByTeam(event)">
+                <input type="text" class="form-control" name="teamName" placeholder="ie sf,sea.." />
+                <button type="submit" class="btn" id="filter-team">filter by team name</button>
+            </form>
+        </div>
+    </div>
+    <div class="border1"></div>
+    <!-- cards -->
+    <div class="row" id="roster">
+        
+    </div>
+    <div class="my-team container-fluid">
+       
+    
+
+
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="player-service.js"></script>
+    <script src="player-controller.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

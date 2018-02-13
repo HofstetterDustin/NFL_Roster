@@ -1,0 +1,44 @@
+
+
+.header{
+    display: flex;
+    min-height: 100px;
+    background-color: lightgray;
+    justify-content: center;
+
+}
+
+.search{
+    display: flex;
+    min-height: 100px;
+    justify-content: center;
+    background-color: lawngreen;
+}
+.border1{
+    background-color: black;
+    min-height: 5px;
+}
+
+.card{
+    display: inline-block;
+    border: 1px solid black;
+    min-width: 200px;
+    padding: 5px;
+    background-color: lightgray;
+    
+}
+
+.card-block{
+
+}   
+
+.name{
+}
+
+.position{
+
+}
+
+.team{
+
+}
